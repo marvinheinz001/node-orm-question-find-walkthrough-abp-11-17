@@ -31,7 +31,7 @@ class Question{
 
   find() {
     static Find(id){
-      
+
     }
   }
 
