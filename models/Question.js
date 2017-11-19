@@ -34,7 +34,7 @@ class Question{
       return new Promise(function(resolve){
         db.get(sql, [id], function(err, result){
           const question = new Question(result.content)
-          question.id = result.id 
+          question.id = result.id
           resolve(question)
         })
       })
